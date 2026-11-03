@@ -1,0 +1,12 @@
+# Core (notebooks were developed on Google Colab with a GPU runtime)
+torch
+transformers==4.38.2      # pinned in the Stage 1 training notebook
+accelerate==0.27.2
+datasets==2.18.0
+scikit-learn
+sentencepiece             # XLM-RoBERTa tokenizer
+pandas
+numpy
+openpyxl                  # Excel I/O
+tqdm
+jsonlines
